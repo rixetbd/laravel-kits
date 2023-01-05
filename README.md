@@ -56,6 +56,7 @@ php artisan breeze:install --dark
 Next, you may navigate to your application's /login or /register URLs in your web browser. All of Breeze's routes are defined within the routes/auth.php file.
 ## P1 - Laravel Debugbar 
 #### [Official Website](https://github.com/barryvdh/laravel-debugbar)
+![logo](https://i.ibb.co/ts00Br0/Laravel-Debugbar.png)
 
 This package enables Laravel and PHP Debug Bar integration. To register the debugbar and bind it to the output, a ServiceProvider is included. Through Laravel, you may setup it and publish assets.
 
@@ -70,6 +71,7 @@ The Debugbar will be enabled when APP_DEBUG is true.
 ## P2 - Intervention Image
 
 #### [Official Website](https://image.intervention.io/v2)
+![logo](https://i.ibb.co/Jkj4cb4/Intervention-Image.jpg)
 A PHP image handling and processing library called Intervention Image is free and open source. GD Library and Imagick, the two most popular image processing libraries, are supported, and it offers a simpler and more expressive approach to generate, edit, and compose images.
 ### Installation
 ```bash
