@@ -96,32 +96,7 @@ Add the facade of this package to the $aliases array.
 php artisan vendor:publish --provider="Intervention\Image\ImageServiceProviderLaravelRecent"
 ```
 
-## P3 - Laravel Permission
-
-#### [Official Website](https://spatie.be/docs/laravel-permission/v5/installation-laravel)
-Through the Roles and Permission-based Access Control feature of Laravel Permissions, developers may provide users access control (ACL). Because of this, from the site's back end, one may change and grant users access.
-### Installation
-```bash
-composer require spatie/laravel-permission
-```
-```bash
-'providers' => [
-    Spatie\Permission\PermissionServiceProvider::class,
-];
-```
-```bash
-php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
-```
-```bash
- php artisan optimize:clear
- # or
- php artisan config:clear
-```
-```bash
-php artisan migrate
-```
-
-## P4 - Laravel Meta Manager
+## P3 - Laravel Meta Manager
 
 #### [Official Website](https://github.com/davmixcool/laravel-meta-manager)
 Laravel Meta Manager is an SEO tool that you can use to enhance the SEO of a website or particular page by adding suggested meta tags to your application.
@@ -158,6 +133,55 @@ Once the configuration is complete you can then add the below at the meta area o
     'image'         => 'Url to the image',
 ])
 ```
+
+## P4 - Agent
+
+#### [Official Website](https://github.com/jenssegers/agent)
+A PHP desktop/mobile user agent parser with support for Laravel, based on Mobile Detect with desktop support and additional functionality.
+### Installation
+```bash
+composer require jenssegers/agent
+```
+```bash
+'providers' => [
+    Jenssegers\Agent\AgentServiceProvider::class,
+];
+```
+```bash
+'Agent' => Jenssegers\Agent\Facades\Agent::class,
+```
+
+```bash
+use Jenssegers\Agent\Agent;
+$agent = new Agent();
+```
+
+
+## P5 - Laravel Permission
+
+#### [Official Website](https://spatie.be/docs/laravel-permission/v5/installation-laravel)
+Through the Roles and Permission-based Access Control feature of Laravel Permissions, developers may provide users access control (ACL). Because of this, from the site's back end, one may change and grant users access.
+### Installation
+```bash
+composer require spatie/laravel-permission
+```
+```bash
+'providers' => [
+    Spatie\Permission\PermissionServiceProvider::class,
+];
+```
+```bash
+php artisan vendor:publish --provider="Spatie\Permission\PermissionServiceProvider"
+```
+```bash
+ php artisan optimize:clear
+ # or
+ php artisan config:clear
+```
+```bash
+php artisan migrate
+```
+
 
 ## Custom Sweetalert
 [Custom Sweetalert](https://sweetalert2.github.io/) is a beautiful, responsive, customizable, accessibility (wai-aria) replacement for javascript popup boxes.
