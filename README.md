@@ -213,6 +213,9 @@ notyf.error('You must fill out the form before moving forward');
 // Display a success notification
 notyf.success('Your changes have been successfully saved!');
 ```
+
+Please [Check Also](https://github.com/mckenziearts/laravel-notify)
+
 ## Viho Dashboard
 Viho Admin is a premium, fully featured, multipurpose Bootstrap admin template created with HTML5, CSS, and JQuery. It is integrated with the most recent jQuery plugins and contains a large variety of reusable UI components. Any form of web application, including a bespoke admin panel, backend, CMS, or CRM, can use it.
 
