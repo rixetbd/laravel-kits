@@ -54,6 +54,17 @@ npm run dev
 php artisan breeze:install --dark
 ```
 Next, you may navigate to your application's /login or /register URLs in your web browser. All of Breeze's routes are defined within the routes/auth.php file.
+
+## IDE Helper Generator for Laravel
+#### [Official Website](https://github.com/barryvdh/laravel-ide-helper)
+Complete PHPDocs, directly from the source
+
+This package generates helper files that enable your IDE to provide accurate autocompletion. Generation is done based on the files in your project, so they are always up-to-date.
+### Installation
+```bash
+composer require --dev barryvdh/laravel-ide-helper
+```
+
 ## P1 - Laravel Debugbar 
 #### [Official Website](https://github.com/barryvdh/laravel-debugbar)
 ![logo](https://i.ibb.co/ts00Br0/Laravel-Debugbar.png)
