@@ -4,6 +4,20 @@
 We are happy to provide authentication and application starter kits to help you get a head start on developing your new Laravel application. The routes, controllers, and views required to register and authenticate users for your application are automatically scaffolded into these kits.
 
 Although they are optional, you are welcome to use these starter kits. Installing a fresh copy of Laravel will allow you to create your own application from scratch. Regardless, we have no doubt that you'll create something fantastic!
+
+
+## Install : Install With Composer
+
+Can try this command for latest version....
+```bash
+composer create-project laravel/laravel example-app
+```
+
+Can try this command for specific version....
+```bash
+composer create-project laravel/laravel:^10.0 example-app
+```
+
 ## Auth : JavaScript & CSS Scaffolding
 #### [Official Website](https://laravel.com/docs/7.x/frontend)
 Even though Laravel does not impose any restrictions on the JavaScript or CSS pre-processors you employ, it does offer a fundamental starting point using Bootstrap, React, and/or Vue that will be useful for many applications. Both of these frontend packages are installed by Laravel by default using NPM.
